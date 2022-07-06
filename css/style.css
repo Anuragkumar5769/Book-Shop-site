@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #413F42;
+    justify-content: center;
+    color: #1B2430;
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+  }
+  
+.navbar {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    display: block;
+    top: 1rem;
+}
+
+ul {
+    z-index: 2;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+   
+}
+li{
+   position: relative;
+    left: 20%;
+    float: left;
+    font-size: 200%;
+    font-weight: 530;
+}
+
+.navbar ul li a {
+    color: #1B2430;
+    text-decoration: none;
+    display: block;
+    padding:5px 25px;
+    
+}
+
+.navbar ul li a:hover {
+    background-color: #EAF6F6;
+}
+
+.logo {
+    position: absolute;
+    right: 10vw;
+    width: 30px;
+    padding: 7px 10px;
+    
+}
+
+.introdiv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center; 
+    width: 100vw;
+    height: 100vh;
+}
+.introdiv div {
+    font-family: 'Gentium Book Plus', serif;
+    text-align: center;
+    margin: 10px;
+    margin-top: 13rem;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 50vw;
+    height: 60vh;
+  }
+
+.intbtn {
+    background-color: #1B2430;
+    font-family: 'Gentium Book Plus', serif;
+    width: 15vw;
+    height: 5vh;
+    margin-top: 15vh;
+    border-radius: 25px;
+    box-shadow: black;
+    font-size: 1.25rem;
+    color: aliceblue;
+}
+
+.intbtn:hover {
+    background-color: #444;
+}
+.introimg {
+    width: 50vw;
+}
+
+.bshead {
+    padding-top: 13vh;
+    padding-bottom: 5vh; 
+    margin: 0; 
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.bestseller {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.bsflex {
+    padding: 6rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 5vh;
+}
+
+.bsflex div {
+    background-color: #bcbab6;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 18vw;
+    height: 47vh;
+}
+
+.ourrec {
+    margin-top: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.orflex {
+    padding: 4rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 20vh;
+   margin-bottom: 0;
+}
+
+.orflex div {
+    background-color: #bcbab6;
+    margin: 30px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 18vw;
+    height: 46vh;
+}
+
+.reflex {
+    padding: 4rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 20vh;
+   margin-bottom: 0;
+}
+
+.reflex div {
+    background-color: #bcbab6;
+    margin: 30px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 18vw;
+    height: 53vh;
+}
+
+.ourrec input[type=text] {
+    border-radius: 20px;
+    width: 60vw;
+    padding: 12px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+.ourrec button {
+    padding: 11px 15px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    background:white; 
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.ourrec button:hover {
+    background-color: #bcbab6;
+}
+
+.reflex .rebox p {
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+.footer{
+    font-family: Roboto;
+    margin-top: 0;
+	background: #444;
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: center ;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.footer h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+ .footer-link{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footerlink a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+ .footername{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footericon{
+	margin-top: 40px;
+}
+
+.footericon a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
