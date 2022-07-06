@@ -8,6 +8,10 @@ body {
     color: #1B2430;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
     display: none; 
   }
